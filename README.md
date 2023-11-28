@@ -1,45 +1,35 @@
 # Expense Tracker
+![Description of the image](https://raw.githubusercontent.com/Spydiecy/Expense_Tracker/main/fee%20project%20image.png)
 
-![Expense Tracker](https://i.ibb.co/mtCp6LC/Screenshot-2023-11-28-215906.png)
+## Overview
+This is a simple expense tracker built with HTML, CSS, and Bootstrap. It allows users to input their expenses and keep track of them.
 
-## Table of Contents
-- [About the Project](#about-the-project)
-- [Key Features](#key-features)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+## Features
+- Add new expenses with a title and amount.
+- View a list of all added expenses.
+- Delete expenses from the list.
 
-## About the Project
+## How to Use
+1. Enter the title of your expense in the 'Title' field.
+2. Enter the amount of your expense in the 'Amount' field.
+3. Click 'Add Entry' to add the expense to the list.
+4. To delete an expense, click the 'Delete' button next to the expense you want to remove.
 
-Expense Tracker is a web application designed to help users efficiently manage and track their daily expenses. It provides a user-friendly interface with modern design, smooth animations, and responsive styling using Bootstrap.
+## Code Structure
+The project is structured into two main sections: the HTML structure and the CSS styling.
 
-## Key Features
+### HTML
+The HTML structure includes a form for inputting expenses and a list for displaying them. Each expense item in the list includes a title, an amount, and a delete button.
 
-- **Add Expenses:** Easily add new expenses with a title and amount.
-- **Expense List:** View, manage, and delete individual entries in the expense list.
-- **Animations:** Enhance the user interface with smooth animations for a modern look.
-- **Responsive Design:** Utilizes Bootstrap for a clean and responsive layout.
-- **Background Image:** Adds a creative touch to the overall design.
+### CSS
+The CSS provides the styling for the page, including colors, fonts, and animations. The animations create a dynamic and interactive user experience.
 
-## Demo
+## Future Improvements
+- Add a feature to edit existing expenses.
+- Implement local storage to persist data across sessions.
 
-[Link to Live Demo](https://spydiecy.github.io/Expense_Tracker/)
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Getting Started
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- Web browser
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/expense-tracker.git
+## License
+MIT
